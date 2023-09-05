@@ -29,7 +29,7 @@ const GoalInput = (props) => {
     <Modal visible={isModalOpen} animationType="fade">
       <View style={styles.inputContainer}>
         <Image
-          source={require("../assets/goal.png")} // Replace with your image source
+          source={require("../../assets/goal.png")} // Replace with your image source
           style={styles.image}
         />
         <TextInput
