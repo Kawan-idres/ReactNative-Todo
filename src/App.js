@@ -8,6 +8,7 @@ export default function App() {
   const [goals, setGoals] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  //test
   const addGoalHandler = (goalTitle) => {
     setGoals((prevGoals) => [
       ...prevGoals,
